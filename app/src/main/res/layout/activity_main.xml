@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393939"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Tec Helper"
+        android:textColor="#36F57C"
+        android:layout_gravity="center|top"
+        android:textSize="55dp"
+        android:textStyle="bold"></TextView>
+
+    <View
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="153dp"
+        android:background="@drawable/circle_2" />
+
+
+    <ImageView
+        android:layout_width="194dp"
+        android:layout_height="297dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/itt_grande"></ImageView>
+
+
+    <Button
+        android:id="@+id/btnDatosPersonales"
+        android:layout_width="230dp"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="270dp"
+        android:background="@drawable/custom_button_green_gradient"
+        android:fontFamily="sans-serif-thin"
+        android:text="Datos Personales"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="25dp"></Button>
+
+    <Button
+        android:id="@+id/btnHorario"
+        android:layout_width="230dp"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/custom_button_green_gradient"
+        android:fontFamily="sans-serif-thin"
+        android:text="Horario Escolar"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="25dp"></Button>
+
+    <Button
+        android:id="@+id/btnTareas"
+        android:layout_width="230dp"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="130dp"
+        android:background="@drawable/custom_button_green_gradient"
+        android:fontFamily="sans-serif-thin"
+        android:text="Reglamento"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="25dp"></Button>
+</FrameLayout>

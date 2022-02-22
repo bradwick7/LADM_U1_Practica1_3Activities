@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/banner"
+        android:fitsSystemWindows="true"
+        android:padding="20dp"
+        tools:context=".ScrollingActivity">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="Horario Escolar"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"></TextView>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:text="Lunes - Jueves"
+            android:textAlignment="center"
+            android:textColor="#3EFF6E"
+            android:textSize="30dp"></TextView>
+
+        <TableRow android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_blue"
+                android:padding="10dp"
+                android:text="7 a.m. - 8 a.m."
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_light"
+                android:padding="10dp"
+                android:text="Bases de Datos Avanzadas"
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_blue"
+                android:padding="10dp"
+                android:text="8 a.m. - 9 a.m."
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_light"
+                android:padding="10dp"
+                android:text="Infraestructura Web"
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_blue"
+                android:padding="10dp"
+                android:text="9 a.m. - 10 a.m."
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_light"
+                android:padding="10dp"
+                android:text="Inteligencia Artificial"
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_blue"
+                android:padding="10dp"
+                android:text="10 a.m. - 11 a.m."
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_light"
+                android:padding="10dp"
+                android:text="Gest. Proyectos Software"
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_blue"
+                android:padding="10dp"
+                android:text="11 a.m. - 12 p.m."
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_light"
+                android:padding="10dp"
+                android:text="Taller Investigacion II"
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_blue"
+                android:padding="10dp"
+                android:text="12 p.m. - 1 p.m."
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_light"
+                android:padding="10dp"
+                android:text="Lab. Aplicaciones Móviles"
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_blue"
+                android:padding="10dp"
+                android:text="5 p.m. - 6 p.m."
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_light"
+                android:padding="10dp"
+                android:text="Prog. Lógica y Funcional"
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+        </TableRow>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:text="Viernes"
+            android:textAlignment="center"
+            android:textColor="#3EFF6E"
+            android:textSize="30dp"></TextView>
+
+        <TableRow android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_blue"
+                android:padding="10dp"
+                android:text="7 a.m. - 8 a.m."
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_light"
+                android:padding="10dp"
+                android:text="Bases de Datos Avanzadas"
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_blue"
+                android:padding="10dp"
+                android:text="8 a.m. - 9 a.m."
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_light"
+                android:padding="10dp"
+                android:text="Infraestructura Web"
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_blue"
+                android:padding="10dp"
+                android:text="12 p.m. - 1 p.m."
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_light"
+                android:padding="10dp"
+                android:text="Lab. Aplicaciones Móviles"
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_blue"
+                android:padding="10dp"
+                android:text="1 p.m. - 3 p.m."
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_light"
+                android:padding="10dp"
+                android:text="Gest. Proyectos Software"
+                android:textAlignment="center"
+                android:textColor="@color/black"></TextView>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

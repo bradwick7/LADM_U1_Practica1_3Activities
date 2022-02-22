@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".SecondFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="top|center"
+        android:text="CAPÍTULO 1"
+        android:textColor="#00B4D8"
+        android:textSize="35dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:gravity="top|center"
+        android:text="DE SU JURISDICCIÓN"
+        android:textColor="#00B4D8"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:gravity="top|start"
+        android:text="Artículo 3"
+        android:textColor="#3EFF6E"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="top|start"
+        android:justificationMode="inter_word"
+        android:text="@string/large_text_3"
+        android:textColor="#ffffff"
+        android:textSize="18dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:gravity="top|end"
+        android:text="Artículo 4"
+        android:textColor="#3EFF6E"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:gravity="top|start"
+        android:justificationMode="inter_word"
+        android:text="@string/large_text_4"
+        android:textColor="#ffffff"
+        android:textSize="18dp"></TextView>
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/custom_button_yellow"
+        android:text="Atrás"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+
+</FrameLayout>

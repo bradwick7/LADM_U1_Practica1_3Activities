@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LADM_U1_Practica1_3Activities</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+      "El presente reglamento rige en todos los Institutos Tecnológicos dependientes de la Dirección General de Institutos Tecnológicos y es de observancia general para todos los estudiantes del Sistema Nacional de Institutos Tecnológicos."
+    </string>
+    <string name="large_text_2">
+        En el contenido de este reglamento, los Institutos Tecnológicos serán llamados indistintamente Institutos, Planteles o Centros de Educación Superior. La Dirección General de Institutos Tecnológicos de la cual dependen, se llamará (La Dirección General), la Subsecretaría de Educación e Investigación Tecnológicas, (La Subsecretaría) y la Secretaria de Educación Pública, (La Secretaría).
+    </string>
+
+    <string name="large_text_3">
+        La educación que se imparte en los Institutos Tecnológicos está sustentada en las disposiciones legales por los Planes y Programas de estudio aprobados y registrados por la Secretaría de Educación Pública.
+    </string>
+
+    <string name="large_text_4">
+        La Educación Superior que se imparte en los Institutos Tecnológicos, será la comprendida en el ciclo superior en sus grados de Licenciatura, Maestría y Doctorado. La duración en cada caso, está determinada por los Planes y Programas de Estudio correspondientes. </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
